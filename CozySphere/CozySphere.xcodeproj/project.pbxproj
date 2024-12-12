@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3D313DD82CEBB8F0006FC044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D313DBF2CEBB8EE006FC044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D313DC62CEBB8EE006FC044;
+			remoteInfo = CozySphere;
+		};
+		3D313DE22CEBB8F0006FC044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D313DBF2CEBB8EE006FC044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D313DC62CEBB8EE006FC044;
+			remoteInfo = CozySphere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D313DC72CEBB8EE006FC044 /* CozySphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CozySphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D313DD72CEBB8F0006FC044 /* CozySphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CozySphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D313DE12CEBB8F0006FC044 /* CozySphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CozySphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3D313DC92CEBB8EE006FC044 /* CozySphere */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CozySphere;
+			sourceTree = "<group>";
+		};
+		3D313DDA2CEBB8F0006FC044 /* CozySphereTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CozySphereTests;
+			sourceTree = "<group>";
+		};
+		3D313DE42CEBB8F0006FC044 /* CozySphereUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CozySphereUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D313DC42CEBB8EE006FC044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D313DD42CEBB8F0006FC044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D313DDE2CEBB8F0006FC044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D313DBE2CEBB8EE006FC044 = {
+			isa = PBXGroup;
+			children = (
+				3D313DC92CEBB8EE006FC044 /* CozySphere */,
+				3D313DDA2CEBB8F0006FC044 /* CozySphereTests */,
+				3D313DE42CEBB8F0006FC044 /* CozySphereUITests */,
+				3D313DC82CEBB8EE006FC044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D313DC82CEBB8EE006FC044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D313DC72CEBB8EE006FC044 /* CozySphere.app */,
+				3D313DD72CEBB8F0006FC044 /* CozySphereTests.xctest */,
+				3D313DE12CEBB8F0006FC044 /* CozySphereUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D313DC62CEBB8EE006FC044 /* CozySphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D313DEB2CEBB8F0006FC044 /* Build configuration list for PBXNativeTarget "CozySphere" */;
+			buildPhases = (
+				3D313DC32CEBB8EE006FC044 /* Sources */,
+				3D313DC42CEBB8EE006FC044 /* Frameworks */,
+				3D313DC52CEBB8EE006FC044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3D313DC92CEBB8EE006FC044 /* CozySphere */,
+			);
+			name = CozySphere;
+			packageProductDependencies = (
+			);
+			productName = CozySphere;
+			productReference = 3D313DC72CEBB8EE006FC044 /* CozySphere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D313DD62CEBB8F0006FC044 /* CozySphereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D313DEE2CEBB8F0006FC044 /* Build configuration list for PBXNativeTarget "CozySphereTests" */;
+			buildPhases = (
+				3D313DD32CEBB8F0006FC044 /* Sources */,
+				3D313DD42CEBB8F0006FC044 /* Frameworks */,
+				3D313DD52CEBB8F0006FC044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D313DD92CEBB8F0006FC044 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D313DDA2CEBB8F0006FC044 /* CozySphereTests */,
+			);
+			name = CozySphereTests;
+			packageProductDependencies = (
+			);
+			productName = CozySphereTests;
+			productReference = 3D313DD72CEBB8F0006FC044 /* CozySphereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D313DE02CEBB8F0006FC044 /* CozySphereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D313DF12CEBB8F0006FC044 /* Build configuration list for PBXNativeTarget "CozySphereUITests" */;
+			buildPhases = (
+				3D313DDD2CEBB8F0006FC044 /* Sources */,
+				3D313DDE2CEBB8F0006FC044 /* Frameworks */,
+				3D313DDF2CEBB8F0006FC044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D313DE32CEBB8F0006FC044 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3D313DE42CEBB8F0006FC044 /* CozySphereUITests */,
+			);
+			name = CozySphereUITests;
+			packageProductDependencies = (
+			);
+			productName = CozySphereUITests;
+			productReference = 3D313DE12CEBB8F0006FC044 /* CozySphereUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D313DBF2CEBB8EE006FC044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3D313DC62CEBB8EE006FC044 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3D313DD62CEBB8F0006FC044 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3D313DC62CEBB8EE006FC044;
+					};
+					3D313DE02CEBB8F0006FC044 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3D313DC62CEBB8EE006FC044;
+					};
+				};
+			};
+			buildConfigurationList = 3D313DC22CEBB8EE006FC044 /* Build configuration list for PBXProject "CozySphere" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D313DBE2CEBB8EE006FC044;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3D313DC82CEBB8EE006FC044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D313DC62CEBB8EE006FC044 /* CozySphere */,
+				3D313DD62CEBB8F0006FC044 /* CozySphereTests */,
+				3D313DE02CEBB8F0006FC044 /* CozySphereUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D313DC52CEBB8EE006FC044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D313DD52CEBB8F0006FC044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D313DDF2CEBB8F0006FC044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D313DC32CEBB8EE006FC044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D313DD32CEBB8F0006FC044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D313DDD2CEBB8F0006FC044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D313DD92CEBB8F0006FC044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D313DC62CEBB8EE006FC044 /* CozySphere */;
+			targetProxy = 3D313DD82CEBB8F0006FC044 /* PBXContainerItemProxy */;
+		};
+		3D313DE32CEBB8F0006FC044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D313DC62CEBB8EE006FC044 /* CozySphere */;
+			targetProxy = 3D313DE22CEBB8F0006FC044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D313DE92CEBB8F0006FC044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D313DEA2CEBB8F0006FC044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D313DEC2CEBB8F0006FC044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CozySphere/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yunting.CozySphere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D313DED2CEBB8F0006FC044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CozySphere/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yunting.CozySphere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D313DEF2CEBB8F0006FC044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yunting.CozySphereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CozySphere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CozySphere";
+			};
+			name = Debug;
+		};
+		3D313DF02CEBB8F0006FC044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yunting.CozySphereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CozySphere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CozySphere";
+			};
+			name = Release;
+		};
+		3D313DF22CEBB8F0006FC044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yunting.CozySphereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CozySphere;
+			};
+			name = Debug;
+		};
+		3D313DF32CEBB8F0006FC044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yunting.CozySphereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CozySphere;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D313DC22CEBB8EE006FC044 /* Build configuration list for PBXProject "CozySphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D313DE92CEBB8F0006FC044 /* Debug */,
+				3D313DEA2CEBB8F0006FC044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D313DEB2CEBB8F0006FC044 /* Build configuration list for PBXNativeTarget "CozySphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D313DEC2CEBB8F0006FC044 /* Debug */,
+				3D313DED2CEBB8F0006FC044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D313DEE2CEBB8F0006FC044 /* Build configuration list for PBXNativeTarget "CozySphereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D313DEF2CEBB8F0006FC044 /* Debug */,
+				3D313DF02CEBB8F0006FC044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D313DF12CEBB8F0006FC044 /* Build configuration list for PBXNativeTarget "CozySphereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D313DF22CEBB8F0006FC044 /* Debug */,
+				3D313DF32CEBB8F0006FC044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D313DBF2CEBB8EE006FC044 /* Project object */;
+}
